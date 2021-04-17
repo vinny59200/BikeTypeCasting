@@ -31,7 +31,7 @@ Type casting rules:
 
         //⚠
         Bike b5 =(Bike) new Object();
-        Cruiser b6 = (Cruiser) new Cruiser();
+        Cruiser b6 = (Cruiser) new Bike();
 
         //❌
         Cruiser b7 = (Cruiser) new BMX();//Does not compile: inconvertible types
